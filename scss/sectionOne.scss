@@ -1,0 +1,62 @@
+.sectionOne {
+  background-color: hsl(256, 26%, 20%);
+  margin: 0px;
+  padding-top: 100px;
+  max-width: 100%;
+  margin-bottom: -50px;
+  background-image: url('../images/bg-pattern-intro-right-desktop.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  
+
+  .sectionOne-background-width {
+    margin: 0 auto;
+  }
+  .sectionOne-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    .sectionOne-left {
+      .sectionOne-border {
+        border-top: 1px solid #fff;
+        width: 150px;
+      }
+
+      h1 {
+        color: #fff;
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        letter-spacing: 0.1em;
+        line-height: 40px;
+      }
+      p {
+        max-width: 600px;
+        color: #fff;
+      }
+      button {
+          margin-top: 20px;
+          color: #fff;
+          border: 1px solid #fff;
+          text-transform: uppercase;
+          background: none;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+    }
+    .sectionOne-right {
+      background-image: url("../images/image-intro-desktop.jpg");
+      
+      height: 550px;
+      width: 510px;
+      margin-bottom: -100px;
+    }
+  }
+}

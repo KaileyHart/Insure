@@ -1,0 +1,94 @@
+body {
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  display: block;
+  padding: 0px;
+  margin: 0px; }
+
+nav {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px; }
+  nav .nav-left {
+    padding-top: 20px; }
+    nav .nav-left img {
+      cursor: pointer; }
+  nav .nav-right {
+    display: flex;
+    justify-content: space-between; }
+    nav .nav-right ul {
+      text-transform: uppercase;
+      font-family: 'Karla', sans-serif; }
+    nav .nav-right ul:hover {
+      cursor: pointer; }
+    nav .nav-right .border {
+      margin-top: 10px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      padding: 0px 0px;
+      background-color: 0px;
+      margin-left: 10px;
+      background: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex; }
+    nav .nav-right .border:hover {
+      cursor: pointer; }
+
+.sectionOne {
+  background-color: #2d2640;
+  margin: 0px;
+  padding-top: 100px;
+  max-width: 100%;
+  margin-bottom: -50px;
+  background-image: url("../images/bg-pattern-intro-right-desktop.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .sectionOne .sectionOne-background-width {
+    margin: 0 auto; }
+  .sectionOne .sectionOne-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; }
+    .sectionOne .sectionOne-container .sectionOne-left .sectionOne-border {
+      border-top: 1px solid #fff;
+      width: 150px; }
+    .sectionOne .sectionOne-container .sectionOne-left h1 {
+      color: #fff;
+      font-family: "DM Serif Display", serif;
+      font-size: 50px;
+      letter-spacing: 0.1em;
+      line-height: 40px; }
+    .sectionOne .sectionOne-container .sectionOne-left p {
+      max-width: 600px;
+      color: #fff; }
+    .sectionOne .sectionOne-container .sectionOne-left button {
+      margin-top: 20px;
+      color: #fff;
+      border: 1px solid #fff;
+      text-transform: uppercase;
+      background: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .sectionOne .sectionOne-container .sectionOne-right {
+      background-image: url("../images/image-intro-desktop.jpg");
+      height: 550px;
+      width: 510px;
+      margin-bottom: -100px; }

@@ -1,0 +1,23 @@
+{
+  "name": "insure",
+  "version": "1.0.0",
+  "description": "![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaileyHart/Insure.git"
+  },
+  "author": "Kailey Hart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaileyHart/Insure/issues"
+  },
+  "homepage": "https://github.com/KaileyHart/Insure#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
