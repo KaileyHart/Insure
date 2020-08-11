@@ -16,6 +16,7 @@
       display: flex;
       justify-content: space-between;
       img {
+       
         padding-top: 40px;
       }
       .footer-social {
@@ -45,12 +46,51 @@
 
 
         }
+        h2:hover {
+          cursor: pointer;
+        }
         p {
+          font-weight: 700;
             font-size: 14px;
             color: hsl(256, 26%, 20%);
             text-transform: uppercase;
          
         }
+        p:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    background-image: url('../images/bg-pattern-footer-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  //background-size: 600px 450px;
+    .footer-width {
+
+      .footer-top {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        img {
+          margin: 0 auto;
+        text-align: center;
+          width: 100px;
+          height: auto;
+        }
+        .footer-social {}
+      }
+      .footer-border {}
+      .footer-col-container {
+        margin: 0 auto;
+        text-align: center;
+        display: flex; 
+        flex-direction: column;
       }
     }
   }

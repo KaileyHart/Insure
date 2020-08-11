@@ -1,7 +1,7 @@
 nav {
   margin: 0 auto;
   max-width: 1200px;
-    padding-top: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
@@ -14,12 +14,10 @@ nav {
   .nav-right {
     display: flex;
     justify-content: space-between;
-
     ul {
         text-transform: uppercase;
         font-family: 'Karla', sans-serif;
-        
-      
+        font-weight: 700;
     }
     ul:hover {cursor: pointer;}
     .border {
@@ -34,13 +32,108 @@ nav {
         padding-right: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
-        
-        display: flex;
-        
+        display: flex; 
     }
     .border:hover {cursor: pointer;
     background-color:  hsl(256, 26%, 20%);
     color:#fff;
   }
+  }
+  .mobile-nav {
+    
+    display: none;
+    height: 33px;
+
+    
+   padding-bottom: 0px;
+    
+  }
+  .mobile-nav:hover {
+    cursor: pointer;
+  }
+  .mobile-nav:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .mobile-nav-close {
+
+    padding-bottom: 0px;
+    display: none;
+    height: 33px;
+    width: 33px;
+  }
+  .hidden {
+    display:none;
+  }
+}
+.mobile-nav-bottom {
+  display:none;
+  height: 600px;
+  width: 100%;
+  background-color: hsl(256, 26%, 20%);
+  //display: flex; 
+  flex-direction: column;
+  //text-align: center;
+  background-image: url('../images/bg-pattern-mobile-nav.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+ 
+  ul {
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 700;
+   list-style: none;
+   padding-top: 30px;
+
+    li { 
+    }
+  }
+  ul:hover {
+    cursor: pointer;
+  }
+  .border {
+    border: 1px solid #fff;
+    background: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+   
+  }
+  .border:hover {
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+  }
+  .plans {
+    padding-bottom: 50px;
+  
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    .nav-right {
+    display: none;
+      ul {}
+      .border {}
+    }
+    .mobile-nav {
+      display: flex;
+    }
+    .mobile-nav-close {
+
+    }
+    
+    .nav-left {
+      padding-top: 10px;
+      
+    }
+  }
+  .mobile-nav-bottom {
+
   }
 }

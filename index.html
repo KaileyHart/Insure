@@ -22,6 +22,9 @@
     />
     <!--Styles-->
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/nav.js">
+
+    </script>
 
     <title>Insure</title>
   </head>
@@ -30,6 +33,7 @@
       <div class="nav-left">
         <img src="images/logo.svg" alt="Insure Logo" />
       </div>
+
       <div class="nav-right">
         <ul>
           How we work
@@ -46,7 +50,30 @@
           </b>
         </ul>
       </div>
+
+      <div onclick="toggleNav()"  id="open" class="mobile-nav">
+        <img src="images/icon-hamburger.svg" alt="nav">
+      </div>
+
+      <div onclick="toggleNav()"  id="close" class="mobile-nav-close">
+        <img src="images/icon-close.svg" alt="nav close">
+      </div>
+      
     </nav>
+    <div class="mobile-nav-bottom" id="open-nav">
+      <ul>
+       <li>How we work</li> 
+      </ul>
+      <ul>
+        <li>Blog</li>
+      </ul>
+      <ul>
+       <li> Account</li>
+      </ul>
+      <ul class="plans">
+          <li class="border">View plans</li>
+      </ul>
+    </div>
 
     <section class="sectionOne">
       <div class="sectionOne-background-width"></div>

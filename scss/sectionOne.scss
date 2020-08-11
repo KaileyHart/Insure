@@ -64,3 +64,43 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .sectionOne {
+    padding-top: 0px;
+    .sectionOne-background-width {
+
+    }
+    .sectionOne-container {
+      display: flex;
+      flex-direction: column-reverse;
+
+      padding-left: 0px;
+      padding-right: 0px;
+     
+     
+      
+      .sectionOne-right {
+        background-image: url("../images/image-intro-desktop.jpg");
+      
+        width: 100vw;
+        margin-bottom: 50px;
+        
+      }
+     
+      .sectionOne-left {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+        .sectionOne-border {
+          display: none;
+        }
+        h1 {}
+        p {}
+        button {}
+      }
+    }
+  }
+
+}
