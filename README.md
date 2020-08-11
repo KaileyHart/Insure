@@ -19,5 +19,5 @@ Your users should be able to:
 
 ## My Solution 
 
-[Insure]{https://kaileyhart.github.io/Insure/}
+[Insure](https://kaileyhart.github.io/Insure/)
 
