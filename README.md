@@ -1,23 +1,13 @@
-# Frontend Mentor - Insure landing page
+# Frontend Mentor Challenge - Insure Landing Page
 
-![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
+This was a [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8/hub) to code a website design from scratch.
 
-## Welcome! 👋
+![image](https://github.com/KaileyHart/Insure/assets/54502452/619a6bc8-d20a-4e19-a745-3ae67c6552ea)
 
-Thanks for checking out this front-end coding challenge by [Frontend Mentor](https://www.frontendmentor.io) 
+## Description
+Insure is a 1 page landing page built with HTML and CSS.
 
-## The challenge
+## Deployment
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-
-## My Solution 
-
-[Insure](https://kaileyhart.github.io/Insure/)
+This website is deployed with GitHub Pages at: [Insure](https://kaileyhart.github.io/Insure/)
 
